@@ -1,0 +1,4 @@
+angular-phonecat
+================
+
+learning angularjs
