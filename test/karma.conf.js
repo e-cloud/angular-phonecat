@@ -17,11 +17,13 @@ module.exports = function (config) {
 
     frameworks: ['jasmine'],
 
-    browsers: ['Chrome', 'firefox'],
+    // the browser name's first char must uppercase
+    browsers: ['Chrome', 'Firefox', 'IE'],
 
     plugins: [
             'karma-chrome-launcher',
             'karma-firefox-launcher',
+      'karma-ie-launcher',
             'karma-jasmine'
             ],
 
