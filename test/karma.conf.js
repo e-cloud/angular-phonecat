@@ -18,7 +18,7 @@ module.exports = function (config) {
 		frameworks: ['jasmine'],
 
 		// the browser name's first char must uppercase
-		browsers: ['Chrome', 'Firefox', 'IE'],
+		browsers: ['Chrome'/*, 'Firefox', 'IE'*/],
 
 		plugins: [
             'karma-chrome-launcher',
